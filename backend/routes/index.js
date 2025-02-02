@@ -98,7 +98,6 @@ router.get("/", (req, res) => {
   res.json({ message: "Success" });
 });
 
-// Error-handling middleware (not part of Swagger docs, but good to have) //todo move to middleware
 router.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).json({ error: "Something went wrong!" });
