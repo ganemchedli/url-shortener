@@ -6,7 +6,7 @@
 
 **Preview : https://url-short-a.vercel.app/**
 
-This project is a **URL Shortener API** built with **Node.js**, **Express**, and **MongoDB**. It allows users to:
+This project is a **URL Shortener** built with **Node.js**, **Express**, and **MongoDB**. It allows users to:
 
 - Shorten long URLs
 - Redirect short URLs to their original destinations
