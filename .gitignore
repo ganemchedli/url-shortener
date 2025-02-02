@@ -1,0 +1,40 @@
+# 🛑 Ignore Node.js dependencies in backend and client
+backend/node_modules/
+client/node_modules/
+
+# 🛑 Ignore environment variables
+backend/.env.dev
+backend/.env.prod
+backend/.env.test
+
+
+# 🛑 Ignore build and cache files
+backend/build/
+backend/dist/
+backend/.vercel/
+backend/.vercel/cache/
+
+client/build/
+client/dist/
+client/.vercel/
+client/.vercel/cache/
+
+# 🛑 Ignore logs and debug files
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/pnpm-debug.log*
+
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/pnpm-debug.log*
+
+# 🛑 Ignore database-related files (if any)
+backend/*.sqlite
+backend/*.db
+backend/mongodb-data/
+
+# 🛑 Ignore Vercel deployment files
+.vercel
+.vercel/cache
